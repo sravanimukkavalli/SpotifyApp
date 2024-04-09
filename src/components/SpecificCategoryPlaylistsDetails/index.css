@@ -1,0 +1,220 @@
+.specific-playlists-details-container {
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .specific-playlists-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.header-lg-container {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header-lg-container {
+    display: flex;
+    width: 15vw;
+  }
+}
+
+.main-specific-playlists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+}
+@media (min-width: 768px) {
+  .main-specific-playlists {
+    width: 85vw;
+  }
+}
+
+.not-found-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  align-self: flex-start;
+}
+.back-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.podcasts {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .podcasts {
+    font-size: 35px;
+  }
+}
+.back-icon {
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  padding-right: 10px;
+}
+.back-text {
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.loading-container {
+  width: 141px;
+  height: 80vh;
+  top: 269px;
+  left: 109px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-icon {
+  width: 124px;
+  height: 52px;
+  top: 269px;
+  left: 117px;
+  padding: 0.99px 0px 1.68px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+@media (min-width: 768px) {
+  .loading-icon {
+    width: 147.76px;
+    height: 58.83px;
+    top: 1.17px;
+    left: -1.76px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.loading-text {
+  font-family: Assistant;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.86px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .loading-text {
+    font-size: 40px;
+  }
+}
+.failure-container {
+  width: 90%;
+  height: 350px;
+  top: 144px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #040306;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-card-container {
+  width: 215px;
+  height: 96px;
+  top: 271px;
+  left: 72px;
+  gap: 14px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-icon {
+  width: 24px;
+  height: 24px;
+  padding: 2px 1px 3px 1px;
+  gap: 0px;
+  opacity: 0px;
+}
+.failure-info {
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.64px;
+  text-align: left;
+  color: #ffffff;
+}
+.try-again-btn {
+  width: 78px;
+  height: 28px;
+  padding: 2px 12px 2px 12px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  line-height: 24px;
+  text-align: left;
+  color: #171f46;
+}
+.playlists-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.playlists-artist-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .playlists-artist-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.unordered-playlists-category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .unordered-playlists-category-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
